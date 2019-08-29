@@ -1,4 +1,6 @@
 applications:
 - name: ts-starter
+  routes:
+  - route: ts-starter-ww-test.mybluemix.net
   memory: 128M
   instances: 1
