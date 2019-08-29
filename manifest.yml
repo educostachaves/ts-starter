@@ -1,6 +1,4 @@
 applications:
-- name: ts-starter
-  routes:
-  - route: ts-starter-ww-test.mybluemix.net
+- name: ts-starter-ww-chaves
   memory: 128M
   instances: 1
