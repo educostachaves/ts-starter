@@ -1,4 +1,5 @@
 applications:
 - name: ts-starter-ww-chaves
+  command: npm start
   memory: 128M
   instances: 1
