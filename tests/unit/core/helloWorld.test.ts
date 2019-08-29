@@ -1,11 +1,7 @@
 import { helloWorld } from '../../../src/core/helloWorld';
 describe('helloWorld', () => {
-    it('Should console.log de phrase "Hello world!"', () => {
-        jest.spyOn(console, 'log');
-
-        helloWorld();
-
-        expect(console.log).toBeCalledTimes(1);
-        expect(console.log).toBeCalledWith('Hello world!');
+    it('Should return de phrase "Hello world!"', () => {
+        const result = helloWorld();
+        expect(result).toBe('Hello world!');
     });
 });

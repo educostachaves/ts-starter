@@ -1,5 +1,5 @@
 {
-  "name": "functional-es6",
+  "name": "ts-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "coverage": "open ./coverage/lcov-report/index.html",
     "lint": "tslint --fix -c tslint.json 'src/**/*.ts'"
   },
-  "author": "Rodrigo Muniz <rodrigo.b.muniz@ibm.com>",
+  "author": "Eduardo Chaves <educostachaves@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.18",
@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@types/node": "^12.7.2",
-    "dotenv": "^8.1.0"
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1"
   }
 }
