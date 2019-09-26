@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserModel When List method is called should return a list of users 1`] = `
+"
+      SELECT * FROM users;
+    "
+`;

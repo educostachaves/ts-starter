@@ -1,12 +1,22 @@
-import { helloWorld } from './core/helloWorld'
-import * as express from 'express';
+import express from 'express';
+import bodyParser from 'body-parser';
+import cors from 'cors';
 
+import UserController from './controllers/user.controller';
+
+const settings = {
+  port: 3000,
+};
 const app = express();
 
-app.get('/', function (req, res) {
-  res.send(helloWorld());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(cors());
+
+app.use('/api/users', UserController.list);
+
+app.listen(settings.port, function () {
+  console.log(`App listening on port ${settings.port}!`);
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
-});
+export default app;
