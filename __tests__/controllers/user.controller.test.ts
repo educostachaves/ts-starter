@@ -17,19 +17,19 @@ function mockResult() {
     {
       id: 2,
       name: 'Eduardo Chaves',
-      email: 'eduardo.chaves@ibm.com',
+      email: 'eduardo@ibm.com',
       created_on: '2019-09-26T09:37:57.707Z',
     },
     {
       id: 3,
       name: 'Salomão',
-      email: 'raibersa@br.ibm.com',
+      email: 'salomao@ibm.com',
       created_on: '2019-09-26T09:50:46.146Z',
     },
     {
       id: 4,
       name: 'Diogo Tocci',
-      email: 'dtocci@br.ibm.com',
+      email: 'diogo@ibm.com',
       created_on: '2019-09-26T09:51:14.602Z',
     },
   ];

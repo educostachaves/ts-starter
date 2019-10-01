@@ -4,7 +4,7 @@ import pool from '../core/db';
 class UserModel {
   public async list(): Promise<any> {
     const query = `
-      SELECT * FROM users;
+      SELECT * FROM users Where 1 = 1;
     `;
 
     try {
